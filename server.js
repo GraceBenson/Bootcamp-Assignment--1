@@ -58,6 +58,4 @@ fs.readFile('listings.json', 'utf8', function(err, data) {
   server = http.createServer(requestHandler);
   //Start the server
   server.listen(port);
-
-
 });
